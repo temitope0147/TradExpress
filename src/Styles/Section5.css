@@ -1,0 +1,58 @@
+.Sec5body{
+    /* margin-top: 20px; */
+    background-color: #EDE9EF;
+    padding-top: 75px;
+
+}
+.Sec5body h3{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+.Sec5body h5{
+    /* border: 1px solid red; */
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.Sec5body button{
+    /* margin: 0 auto; */
+    border: 1px solid red;
+    border-style: none;
+    padding: 10px 115px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color:  #7C20BF;
+    color: white;
+
+}
+
+.sec5img{
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 23%;
+    padding-bottom: 75px;
+
+}
+
+@media (max-width:700px) {
+    .sec5img{
+        /* flex-direction: column; */
+        width: 80%;
+    }
+    
+}
+@media (max-width:280px) {
+    .sec5img{
+        /* margin: 0 auto; */
+        /* flex-direction: column; */
+        width: 100%;
+        /* background-color: white; */
+
+    }
+    
+}
